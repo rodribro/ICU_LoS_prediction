@@ -76,3 +76,9 @@ def create_mimic_iii_db(new_user:str, new_password:str) -> None:
     # Cleanup
     cur.close()
     conn.close()
+
+if __name__ == "__main__":
+    mimic_credentials = mimic_user_creation(host_user="mimic_test", db_name="mimic_iii")
+    user = mimic_credentials["new_user"]
+    password = mimic_credentials["new_password"]
+    create_mimic_iii_db(new_user=user, new_password=password)
