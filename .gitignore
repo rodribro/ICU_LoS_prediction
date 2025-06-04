@@ -1,6 +1,8 @@
 # Environment file #
 ####################
 .env
+venv/
+*.json
 
 # OS generated files #
 ######################
