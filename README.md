@@ -12,6 +12,8 @@
     * Activate the environment by running: <code> source venv/bin/activate </code>
     * Afterwards run:  <code> pip install -r requirements.txt </code> (install the required dependencies)
 
+NB: Most work was done in the notebooks available in both the root and src directories. Will separate the work into files later on
+
 Note: The files [Chart Events](https://mimic.mit.edu/docs/iii/tables/chartevents/) and [DateTimeEvent](https://mimic.mit.edu/docs/iii/tables/datetimeevents/) will not be included in the github repo due to its ~36GB size. (Might add them later via Git's LFS)
 
 
